@@ -1,0 +1,127 @@
+/*
+body {
+    padding-bottom: 40px;
+}
+
+table td,
+table th {
+    vertical-align: middle;
+}
+*/
+
+/* Overall page background */
+.app-body {
+    background: #f3f4f7;
+    min-height: 100vh;
+}
+
+/* Container spacing */
+.container {
+    padding-bottom: 40px;
+}
+
+/* Card styling */
+.contact-card {
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+
+/* Table tweaks */
+table td,
+table th {
+    vertical-align: middle;
+    font-size: 0.95rem;
+}
+
+thead.table-dark th {
+    
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+/* Page heading */
+h2 {
+    font-weight: 600;
+}
+
+/* Search box */
+form input[name="q"] {
+    min-width: 220px;
+}
+
+/* Flash messages */
+.alert {
+    border-radius: 8px;
+}
+
+/* Small screen spacing */
+@media (max-width: 576px) {
+    .container {
+        padding-top: 0.5rem;
+    }
+}
+
+/* Centered big navbar title */
+.navbar-title {
+    font-size: 1.8rem;      /* Bigger title */
+    font-weight: 700;       /* Bold */
+    letter-spacing: 0.5px;  /* Slight spacing */
+    text-align: center;
+}
+ 
+/* Multicolour crystal navbar */
+.navbar-crystal {
+    background: linear-gradient(90deg,
+        #5b9dff,
+        #a86bff,
+        #ff6fb5,
+        #ffd36b
+    );
+    background-size: 400% 400%;
+    animation: crystalGradient 15s ease infinite;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.25);
+}
+
+/* Make the title pop like a crystal */
+.navbar-title {
+    font-family: 'Pacifico', cursive;
+    font-size: 2.8rem;
+    color: #ffffff;
+    display:inline-block;
+    font-weight: 800;
+    letter-spacing: 0.06em;
+    text-shadow: 0 0 6px rgba(255, 255, 255, 0.7),
+                 0 0 18px rgba(255, 255, 255, 0.5);
+}
+
+/* Animated gradient effect */
+@keyframes crystalGradient {
+    0%   { background-position: 0% 50%; }
+    50%  { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Soft Crystal Footer */
+.footer-crystal {
+    font-size: 0.95rem;
+    color: #555;
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(6px);
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Add Contact button hover glow */
+.btn-primary {
+    background-color: #007bff;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0069d9;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.6),
+                0 0 20px rgba(0, 123, 255, 0.4);
+    transform: translateY(-2px);
+}
