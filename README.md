@@ -5,13 +5,12 @@ Built using Flask, SQLite, and Bootstrap, and deployed on Render.
 
 ##  Features
 
--Add new contacts
--Edit existing contacts
--Delete contacts
--Search contacts by name, email, phone, or address
--Responsive and clean UI
--Gradient header and glowing title
--Auto-created SQLite database
+- Add tasks
+- Update task titles
+- Delete tasks
+- Mark tasks as `in-progress`, `done`, or `not-done`
+- List all tasks or filter by status
+
 
 ##  How to Use
 
