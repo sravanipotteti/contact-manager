@@ -1,8 +1,15 @@
 from flask import Flask, render_template, request, redirect, url_for, flash
 import db  # our db.py file
 
+import os
+from init_db import init_db 
+
 app = Flask(__name__)
 app.secret_key = "sravani_secret_code_9784464483"  # needed for flash messages
+
+# Create DB automatically on Render if it doesn't exist
+if not os.path.exists("contacts.db"):
+    init_db()
 
 
 # -------- HOME: LIST CONTACTS --------
