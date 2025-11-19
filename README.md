@@ -46,6 +46,7 @@ Built using Flask, SQLite, and Bootstrap, and deployed on Render.
   http://127.0.0.1:5000
 ```
 
+
 ### Commands
 
 | Command | Usage Example | Description |
@@ -58,7 +59,9 @@ Built using Flask, SQLite, and Bootstrap, and deployed on Render.
 | `search` | Visit `/?q=keyword` | Searches contacts by keyword (name, email, phone, address) |
 
 
-##Contact Storage
+
+## Contact Storage
+
 All contact data is stored in a SQLite database named:
 ```bash
 contacts.db
@@ -70,24 +73,28 @@ init_db.py  +  schema.sql
 ```
 
 ##Requirements
--Python 3.x
--Flask
--Gunicorn (for deployment)
--SQLite (built-in)
+
+- Python 3.x
+- Flask
+- Gunicorn (for deployment)
+- SQLite (built-in)
 
 
-##Install all dependencies using:
+
+## Install all dependencies using:
+
 ```bash
 pip install -r requirements.txt
 ```
 
-##Deployment
+## Deployment
 
 This project is deployed on Render using:
 
--Procfile for Gunicorn
--Automatic build + deploy
--HTTPS enabled by default
+- Procfile for Gunicorn
+- Automatic build + deploy
+- HTTPS enabled by default
+
 
 ##Live site link:
 Check out the project's [Live Demo](https://contact-manager-kqub.onrender.com/)
