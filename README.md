@@ -46,7 +46,7 @@ Built using Flask, SQLite, and Bootstrap, and deployed on Render.
   http://127.0.0.1:5000
 ```
 
-##Commands
+### Commands
 
 | Command | Usage Example | Description |
 |---------|----------------|-------------|
