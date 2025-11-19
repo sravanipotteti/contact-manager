@@ -47,7 +47,7 @@ Built using Flask, SQLite, and Bootstrap, and deployed on Render.
 ```
 
 
-### Commands
+## Commands
 
 | Command | Usage Example | Description |
 |---------|----------------|-------------|
@@ -72,7 +72,7 @@ On Render deployment, this database is automatically created using:
 init_db.py  +  schema.sql
 ```
 
-##Requirements
+## Requirements
 
 - Python 3.x
 - Flask
@@ -96,10 +96,12 @@ This project is deployed on Render using:
 - HTTPS enabled by default
 
 
-##Live site link:
+## Live site link:
+
 Check out the project's [Live Demo](https://contact-manager-kqub.onrender.com/)
 
-##Project Structure
+## Project Structure
+
 contact-manager/
 │ app.py
 │ db.py
@@ -117,7 +119,8 @@ contact-manager/
 └── static/
       styles.css
 
-##Author
+## Author
+
 Build By Sravani Potteti
 Full Stack Developer • Python • Flask • Web Apps
 
