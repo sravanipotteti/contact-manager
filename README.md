@@ -4,6 +4,7 @@ Built using Flask, SQLite, and Bootstrap, and deployed on Render.
 
 
 ##  Features
+
 -Add new contacts
 -Edit existing contacts
 -Delete contacts
