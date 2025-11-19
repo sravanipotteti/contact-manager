@@ -15,10 +15,11 @@ Built using Flask, SQLite, and Bootstrap, and deployed on Render.
 ##  How to Use
 
 1. **Clone the Repository:**
- ```bash
+   
+  ```bash
    git clone https://github.com/sravanipotteti/contact-manager.git
    cd contact-manager
-    ```
+   ```
 2.**Create and activate a virtual environment:**
 
   ```nginx
